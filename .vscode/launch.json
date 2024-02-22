@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "name": "Débogueur Python : Fichier actuel",
+            "type": "debugpy",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "/home/baptistep/Developpement/Arrera-web-Acceuil/index.html"
+            "program": "main.py",
+            "console": "integratedTerminal"
         }
     ]
 }
